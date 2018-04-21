@@ -33,7 +33,5 @@ else
 end
 
 end
-sum(v)
 
-xlswrite('Sim_Matrix.xlsx',v);
-xlsread('Sim_Matrix_train.xlsx');
+xlswrite('Generated_Dataset.xlsx',v);
