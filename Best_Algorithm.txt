@@ -1,0 +1,9 @@
+Classifier                   f1_score
+
+ensemble bagged trees        .9615
+RUSboosted trees             .9638
+logistic regression          .9508
+linear SVM.                  .9510
+cubic SVM                    .9518
+
+Hence the Best classifier is RUSboosted trees.
