@@ -13,4 +13,6 @@ Seed value of 1234 was used for random number generator.
 
 After generating the transaction dataset, Matlab classification learner was used to find the algorithm that works best (max. f1 score) 
 in terms of predicting whether a transaction is genuine or fraudulent using transaction amount and time between transactions as features.
+The following algorithms were used for training and a relative comparison was made: ensemble bagged trees, RUSboosted trees, logistic regression, cubic SVM and linear SVM. 
+
 First 7000 transactions fields was used for training and rest 3000 for testing. 
